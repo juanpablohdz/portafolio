@@ -1,0 +1,396 @@
+    body {
+        /*imagen*/
+        background-image: url(imagenes/fondo3.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    /*layaout*/
+    
+    div#vacio {
+        width: 100%;
+        height: 240px;
+    }
+    /*contenido layaout scroll */
+    
+    div#contenedor {
+        width: 100%;
+        height: 1000px;
+        background-color: white;
+        text-align: center;
+        font-size: 200xp;
+    }
+    /*estilo de div o contenedor del medio trasparente */
+    
+    .jumbotron {
+        font-family: 'Times New Roman', Times, serif;
+        margin: auto;
+        margin-top: 250px;
+        background-color: white;
+        background: rgba(255, 255, 255, 0.5);
+        color: black;
+        text-decoration: none;
+        border: 1px solid black;
+        padding-bottom: 30px;
+        text-align: center;
+        height: 200px;
+        width: 700px;
+        padding: 30px;
+    }
+    
+    .navbar {
+        /*al final del rbga va el opacity y fixed no se mueve top lo sube*/
+        position: static;
+        top: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        background-color: white;
+        background: black;
+    }
+    /*dentro de conocimientos contenedor*/
+    
+    div#body {
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+        font-family: Harlow Solid Italic;
+    }
+    /*primer conocimiento html nombre*/
+    
+    .cono1 {
+        font-size: 30px;
+        color: rgb(2, 2, 2);
+        font-family: arial black;
+        background-color: rgb(255, 255, 255);
+        margin: 40px;
+        margin-top: 50px;
+        width: 290px;
+        height: 500px;
+    }
+    /*manipulacion de la imagen*/
+    
+    .imgpython {
+        background-image: url(imagenes/python.png);
+        background-repeat: no-repeat;
+        background-size: 80px;
+        margin: 80px;
+        margin-top: 20px;
+        position: relative;
+        width: 100px;
+        height: 80px;
+        left: 20px;
+    }
+    /*manipulaicon de la letra python*/
+    
+    .letrapython {
+        text-align: justify;
+        position: relative;
+        font-size: 16px;
+        color: rgb(2, 2, 2);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        margin-top: 0px;
+        width: 350px;
+        height: 150px;
+        bottom: 20px;
+    }
+    /*Manipulacion de imagen sql*/
+    
+    .SQL {
+        background-image: url(imagenes/SQL.png);
+        background-repeat: no-repeat;
+        background-size: 180px;
+        margin: 80px;
+        margin-top: 150px;
+        position: relative;
+        width: 190px;
+        height: 150px;
+        left: auto;
+        right: 30px;
+        bottom: 145px;
+    }
+    /*manipulaicon de la letra SQL*/
+    
+    .letraSQL {
+        text-align: justify;
+        position: relative;
+        font-size: 16px;
+        color: rgb(2, 2, 2);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        margin-top: 0px;
+        width: 400px;
+        height: 200px;
+        right: 100px;
+        top: auto;
+        left: auto;
+        right: 70px;
+        bottom: 220px;
+    }
+    /*contenedor sql titulo*/
+    
+    div#bodysql {
+        font-size: 30px;
+        color: rgb(2, 2, 2);
+        font-family: arial black;
+        position: relative;
+        left: 530px;
+        bottom: 540px;
+        width: 300px;
+        height: 200px;
+    }
+    /*Manipulacion de imagen office*/
+    
+    .ofimatica {
+        background-image: url(imagenes/office.png);
+        background-repeat: no-repeat;
+        background-size: 180px;
+        margin: 80px;
+        margin-top: 150px;
+        position: relative;
+        width: 190px;
+        height: 150px;
+        left: auto;
+        right: 20px;
+        bottom: 100px;
+    }
+    /*manipulaicon de la letra office*/
+    
+    .letraofimatica {
+        text-align: justify;
+        position: relative;
+        font-size: 16px;
+        color: rgb(2, 2, 2);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        margin-top: 0px;
+        width: 350px;
+        height: 150px;
+        right: 100px;
+        top: auto;
+        left: auto;
+        right: 50px;
+        bottom: 220px;
+    }
+    /*contenedor office titulo*/
+    
+    div#bodyofimatica {
+        font-size: 30px;
+        color: rgb(2, 2, 2);
+        font-family: arial black;
+        position: relative;
+        left: 980px;
+        bottom: 740px;
+        width: 300px;
+        height: 200px;
+    }
+    /*Manipulacion de imagen Rstudio*/
+    
+    .rstudio {
+        background-image: url(imagenes/Rstudio.png);
+        background-repeat: no-repeat;
+        background-size: 180px;
+        margin: 80px;
+        margin-top: 150px;
+        position: relative;
+        width: 190px;
+        height: 150px;
+        left: auto;
+        right: 20px;
+        bottom: 100px;
+    }
+    /*manipulaicon de la letra rstudió*/
+    
+    .letrarstudio {
+        text-align: justify;
+        position: relative;
+        font-size: 16px;
+        color: rgb(2, 2, 2);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        margin-top: 0px;
+        width: 300px;
+        height: 200px;
+        right: 200px;
+        top: auto;
+        left: 2px;
+        bottom: 220px;
+    }
+    /*contenedor rstudio*/
+    
+    div#bodyrstudio {
+        font-size: 30px;
+        color: rgb(2, 2, 2);
+        font-family: arial black;
+        position: relative;
+        left: 30px;
+        bottom: 500px;
+        width: 300px;
+        height: 200px;
+    }
+    /*Manipulacion de imagen html*/
+    
+    .html {
+        background-image: url(imagenes/html51.png);
+        background-repeat: no-repeat;
+        background-size: 180px;
+        margin: 80px;
+        margin-top: 150px;
+        position: relative;
+        width: 190px;
+        height: 150px;
+        left: auto;
+        right: 20px;
+        bottom: 140px;
+    }
+    /*manipulaicon de la letra html*/
+    
+    .letrahtml {
+        text-align: justify;
+        position: relative;
+        font-size: 16px;
+        color: rgb(2, 2, 2);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        margin-top: 0px;
+        width: 400px;
+        height: 200px;
+        right: 100px;
+        top: auto;
+        left: auto;
+        right: 50px;
+        bottom: 220px;
+    }
+    /*contenedor html*/
+    
+    div#bodyhtml {
+        font-size: 30px;
+        color: rgb(2, 2, 2);
+        font-family: arial black;
+        position: relative;
+        left: 550px;
+        bottom: 700px;
+        width: 300px;
+        height: 200px;
+    }
+    /*Manipulacion de imagen adobe*/
+    
+    .adobe {
+        background-image: url(imagenes/adobe.png);
+        background-repeat: no-repeat;
+        background-size: 180px;
+        margin: 80px;
+        margin-top: 150px;
+        position: relative;
+        width: 190px;
+        height: 150px;
+        left: auto;
+        right: 20px;
+        bottom: 140px;
+    }
+    /*manipulaicon de la letra adobe*/
+    
+    .letraadobe {
+        text-align: justify;
+        position: relative;
+        font-size: 16px;
+        color: rgb(2, 2, 2);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        margin-top: 0px;
+        width: 400px;
+        height: 200px;
+        right: 100px;
+        top: auto;
+        left: 20px;
+        right: 50px;
+        bottom: 220px;
+    }
+    /*contenedor adobe*/
+    
+    div#bodyadobe {
+        font-size: 30px;
+        color: rgb(2, 2, 2);
+        font-family: arial black;
+        position: relative;
+        left: 1000px;
+        bottom: 910px;
+        width: 300px;
+        height: 200px;
+    }
+    /*contenedor proyectos*/
+    
+    div#portafolio {
+        padding: auto;
+        font-size: 40px;
+        color: white;
+        font-family: Harlow Solid Italic;
+        height: 80px;
+        width: 200px;
+        position: relative;
+        right: auto;
+        left: 550px;
+        top: 30px;
+        bottom: auto;
+        text-align: center;
+    }
+    
+    .proyecto1 {
+        color: black;
+        border-radius: 5px;
+        width: 300px;
+        height: 300px;
+        background: white;
+        position: relative;
+        left: 10px;
+        bottom: auto;
+        top: 50px;
+        text-align: justify;
+    }
+    
+    .vinculoproyecto {
+        position: relative;
+        left: 120px;
+        text-transform: none;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        background: black;
+        color: white;
+        height: 30px;
+        width: 80px;
+    }
+    
+    div#piepagina {
+        color: black;
+        font-size: 15px;
+        position: relative;
+        top: 400px;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        background: rgba(255, 255, 255, 0.5);
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 3px;
+        padding: 0px;
+    }
+    
+    .redesl {
+        background-image: url(imagenes/Linkedin.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        margin: 40px;
+        margin-top: 40px;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        left: 300px;
+        right: auto;
+        bottom: 0px;
+        top: 300px;
+    }
+    
+    div#diplomacona {
+        background: white;
+        color: white;
+    }

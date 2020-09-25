@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--layout reutilazar codigo en varias paginas o pestañas-->
+<html lang="en">
+<!-- dar formato al html control+shif+f-->
+
+<head>
+    <title>Portafolio Web</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/css/imagenes/bd.ico">
+</head>
+
+<body>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--kink boosbstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--llamar link de ccs-->
+    <!--llamar python con llaves {}-->
+    <!--llamar carperta 'static'y dentro de la carpeta  css/maincss -->
+    <link rel="stylesheet" href="main.css">
+
+
+    <!--arriba head abajo body -->
+
+
+    <!--buscador boostrap-->
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand">
+            <h1>Hernandez Garcia Juan Pablo</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- 
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        <h5>Inicio</h5>
+                    </a>
+                </li>
+            -->
+                <li class="nav-item">
+                    <!--url about con python y "/" para actualizar sin modificar manda a una pagina-->
+                    <a class="nav-link" href="#contenedor">
+                        <h5>Conocimientos</h5>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">
+                        <h5>Portafolio</h5>
+                    </a>
+                </li>
+                <!-- pagina cambiante -->
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url_for('sobremi')}}">
+                        <h5>Sobre mi </h5>
+                    </a>
+                </li>
+-->
+                <li class="nav-item">
+                    <a class="nav-link" href="#piepagina">
+                        <h5>contacto</h5>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+
+    <body>
+
+
+        <div class="jumbotron">
+            <p>
+                <b><h3>Lic.CIENCIA DE DATOS PARA NEGOCIOS<h3></b>
+            </p>
+            <p>
+                <b><h3>Analisis,Programación,Estadistica</h3></b>
+            </p>
+
+
+        </div>
+
+        <!--separacion de a qui hacia arriba-->
+
+
+        <div id="vacio"></div>
+
+
+
+        <!--es el contenedor al desplazar-->
+        <!-- contenedor MIS CONOCIMIENTOS-->
+        <!--python-->
+        <div id="contenedor">
+            <div id="body">
+                <p><u>Conocimientos</u></p>
+
+                <div class="cono1">
+
+
+
+                    <p>PYTHON</p>
+
+                    <div class="imgpython"></div>
+                    <div class="letrapython">
+                        <p>manejo de programacion con tecnicas para el analisis y prediccion con modelos entrenados para la toma de decisiones </p>
+
+                        <ul color="blue">
+                            <li>Pandas
+                                <li>Keras
+                                    <li>Tensor flow
+                                        <li>mineria de datos
+                        </ul>
+                    </div>
+                </div>
+
+                <!--SQL-->
+
+                <div id="bodysql">
+                    <p>SQL Server</p>
+
+                    <div class="SQL"></div>
+                    <div class="letraSQL">
+                        <p></p>
+                        <p>conocimiento de las bases de datos en SQL Server para hacer consultas y para agregar o elimnar registros
+                        </p>
+                        <p></p>
+                        <ul color="blue">
+                            <li>Consultas
+                                <li>Limpieza de datos
+                                    <li>XML
+                                        <li>MySQL
+                        </ul>
+                    </div>
+                </div>
+                <!--ofimatica-->
+                <div id="bodyofimatica">
+                    <p>Ofimatica</p>
+
+                    <div class="ofimatica"></div>
+                    <div class="letraofimatica">
+                        <p>Experiencia de sofware para diferentes tipos de situaciones y el uso de ellos para presentaciones o reportes </p>
+
+                        <p> </p>
+                        <ul color="blue">
+                            <li>macros
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!--Rtudio-->
+                <div id="bodyrstudio">
+                    <p>RStudio</p>
+
+                    <div class="rstudio"></div>
+                    <div class="letrarstudio">
+                        <p>Manejo para realizar vizualizaciones,operaciones y muestra de graficas</p>
+
+                        <p> </p>
+                        <ul color="blue">
+                            <li>GGPLOT2
+                                <li>exportar(cvs)
+                                    <li>operaciones estadisticas
+                                        <li>Algoritmos
+
+                        </ul>
+                    </div>
+                </div>
+                <!--HTML5-->
+                <div id="bodyhtml">
+                    <p>HTML</p>
+
+                    <div class="html"></div>
+                    <div class="letrahtml">
+                        <p>Desarrollo de Pagias Web y logica en diferentes tecnologias para su desarrollo</p>
+
+                        <p> </p>
+                        <ul color="blue">
+                            <li>HTML5
+                                <li>CCS
+                                    <li>Bootstrap
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!--Paqueteria adobe-->
+                <div id="bodyadobe">
+                    <p>ADOBE</p>
+
+                    <div class="adobe"></div>
+                    <div class="letraadobe">
+                        <p>conocimiento en diseño publicitario </p>
+
+                        <p> </p>
+                        <ul color="blue">
+                            <li>Photoshop
+                                <li>InDesing
+                                    <li>DreamWeaver
+                                        <li>After Effects
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--centrado con container-->
+        <div class="container">
+
+
+        </div>
+        <!--proyectos-->
+
+        <div id="portafolio">
+            <p>Portafolio</p>
+
+
+        </div>
+        <div class="proyecto1">
+            <section>
+                <p>
+                    <B>   Proyecto de precios de viviendas CDMX</B>
+                </p>
+
+                <p>El proyecto en Jupyter python con librerias como Keras, Tensorflow, Pandas, matplotlib </p>
+                <p>Modelo entrenado para determinar costo de viviendas en CDMX </p>
+
+            </section>
+            <div class="vinculoproyecto">
+                <!--<a href="https://colab.research.google.com/drive/1pm-0LQxJRLe4g_Dmd_zAsCya_9Hxs0Bl" style="text-decoration:none;">Proyecto</a> -->
+                <a href="https://colab.research.google.com/drive/1pm-0LQxJRLe4g_Dmd_zAsCya_9Hxs0Bl" button class="btn btn-dark" target="blank">Proyecto</button></a>
+            </div>
+        </div>
+
+
+    </body>
+
+    <footer>
+        <div id="piepagina">
+            <ul>
+                Diseñado por Juan Pablo
+                <br> Correo:juan.hdz9901@gmail.com
+                <br> whatsap:5569727223 [linkedin]------------->
+                <br>
+            </ul>
+
+        </div>
+        <!--Linkedin-->
+        <div class="redesl">
+            <a href="https://www.linkedin.com/in/juan-pablo-hernandez-garcia/">
+                <img width="50" height="50" src="imagenes/Linkedin.png" alt="">
+            </a>
+        </div>
+        </div>
+
+
+
+    </footer>
+
+</html>
